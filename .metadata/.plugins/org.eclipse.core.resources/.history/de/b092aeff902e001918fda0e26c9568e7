@@ -1,0 +1,5 @@
+package com.allyworld.app.profileservice.entity;
+
+public class Request {
+
+}

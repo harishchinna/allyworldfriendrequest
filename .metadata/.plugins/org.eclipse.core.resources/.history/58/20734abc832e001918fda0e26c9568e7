@@ -1,0 +1,39 @@
+package com.app.allyworld.AllyWebSite.enitity;
+
+public class Request {
+
+	private int senderId;
+	private int ReceiverId;
+
+	public Request() {
+		super();
+	}
+
+	public Request(int senderId, int receiverId) {
+		super();
+		this.senderId = senderId;
+		ReceiverId = receiverId;
+	}
+
+	public int getSenderId() {
+		return senderId;
+	}
+
+	public void setSenderId(int senderId) {
+		this.senderId = senderId;
+	}
+
+	public int getReceiverId() {
+		return ReceiverId;
+	}
+
+	public void setReceiverId(int receiverId) {
+		ReceiverId = receiverId;
+	}
+
+	@Override
+	public String toString() {
+		return "Request [senderId=" + senderId + ", ReceiverId=" + ReceiverId + "]";
+	}
+
+}

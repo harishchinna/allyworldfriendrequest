@@ -1,0 +1,5 @@
+package com.app.allyworld.AllyWebSite.enitity;
+
+public class Request {
+
+}
